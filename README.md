@@ -72,7 +72,18 @@ Depending on the chosen directory and if sudo parameter is active, it might be n
 python3 pyTelegramShellBot.py
 python3 pyTelegramShellBot.py &              (this will run the script in background)
 ```
+## Environment Variables
+- `BOT_TOKEN` : The bot token provided by @BotFather
+- `OWNER_ID` : The bot token provided by @BotFather
+- `RCLONE_CONFIG_BASE64` : Your Rclone config encoded using Base64
 
+## Pre-installed
+- Rclone
+- 7z
+- youtube-dl
+- localtunnel
+- rdfind
+- Megatools
 
 ## Sending and receiving files
 To send files just drag and drop on the chat, or click on send file button, they will be stored in configured shared folder.
@@ -83,6 +94,8 @@ To send files just drag and drop on the chat, or click on send file button, they
 To download files from the computer use "/getfile + path" (e.g. /getfile /home/user/Desktop/test-file.txt).
 
 ![alt tag](/readme_images/gif4.gif)
+
+
 
 
 ## TODO
